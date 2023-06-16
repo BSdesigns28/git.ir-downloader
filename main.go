@@ -35,7 +35,7 @@ func main() {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	c.Visit("https://git.ir/course-title/")
+	c.Visit("https://en.git.ir/udemy-the-ultimate-guide-to-starting-a-drop-servicing-business/")
 
 	cmd := exec.Command("sh ./dl.sh")
 	err := cmd.Run()
